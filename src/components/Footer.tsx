@@ -1,9 +1,10 @@
-export default function Footer(){
-    return (
-        <footer className="bg-dark mt-5 py-5">
-        <div className="container-xl">
-            <p className="text-white text-center fs-4 mt-4 m-md-0">Paquis - Todos los derechos Reservados</p>
-        </div>
+export default function Footer() {
+  return (
+    <footer className="bg-indigo-900 text-white py-6">
+      <div className="container mx-auto px-6 text-center text-sm font-light">
+        <p>© {new Date().getFullYear()} <span className="font-semibold">Team Pquis</span>. Todos los derechos reservados.</p>
+        <p className="mt-1 text-yellow-300 italic">Vamos por la 16 🦅</p>
+      </div>
     </footer>
-    )
+  );
 }
